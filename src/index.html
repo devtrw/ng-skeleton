@@ -1,8 +1,8 @@
 <!DOCTYPE html><!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7" ng-app="repx" ng-controller="AppCtrl"> <![endif]--><!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8" ng-app="repx" ng-controller="AppCtrl"> <![endif]--><!--[if IE 8]>
-<html class="no-js lt-ie9" ng-app="repx" ng-controller="AppCtrl"> <![endif]--><!--[if gt IE 8]><!-->
-<html class="no-js" ng-app="repx" ng-controller="AppCtrl as AppCtrl"> <!--<![endif]-->
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" ng-app="app" ng-controller="AppCtrl"> <![endif]--><!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" ng-app="app" ng-controller="AppCtrl"> <![endif]--><!--[if IE 8]>
+<html class="no-js lt-ie9" ng-app="app" ng-controller="AppCtrl"> <![endif]--><!--[if gt IE 8]><!-->
+<html class="no-js" ng-app="app" ng-controller="AppCtrl as AppCtrl"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -20,12 +20,12 @@
   <meta property="og:title" content="RepX Tracker UI"/>
   <meta property="og:type" content="website"/>
   <meta property="og:site_name" content="RepX Tracker"/>
-  <meta property="og:url" content="https://track.repx.me"/>
+  <meta property="og:url" content="https://track.app.me"/>
   <meta property="og:description" content=""/>
   <meta property="og:image" content=""/>
   <meta property="fb:app_id" content=""/>
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@repx">
+  <meta name="twitter:site" content="@app">
   <meta name="twitter:title" content="RepX">
   <meta name="twitter:description" content="">
   <meta name="twitter:creator" content="@llwt">
@@ -33,20 +33,20 @@
 
   <!-- IE 10 Metro tile icon -->
   <meta name="msapplication-TileColor" content="#FFFFFF">
-  <meta name="msapplication-TileImage" content="/styles/brand/repx/img/favicon/144.png">
+  <meta name="msapplication-TileImage" content="/styles/brand/app/img/favicon/144.png">
   <!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
-  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/styles/brand/repx/img/favicon/152.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/styles/brand/app/img/favicon/152.png">
   <!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/styles/brand/repx/img/favicon/144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/styles/brand/app/img/favicon/144.png">
   <!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
-  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/styles/brand/repx/img/favicon/120.png">
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/styles/brand/app/img/favicon/120.png">
   <!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/styles/brand/repx/img/favicon/114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/styles/brand/app/img/favicon/114.png">
   <!-- For first- and second-generation iPad: -->
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/styles/brand/repx/img/favicon/72.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/styles/brand/app/img/favicon/72.png">
   <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-  <link rel="apple-touch-icon-precomposed" href="/styles/brand/repx/img/favicon/57.png">
-  <link rel="icon" href="/styles/brand/repx/img/favicon/32.png" sizes="32x32">
+  <link rel="apple-touch-icon-precomposed" href="/styles/brand/app/img/favicon/57.png">
+  <link rel="icon" href="/styles/brand/app/img/favicon/32.png" sizes="32x32">
 
   <base href="/">
 
@@ -57,7 +57,7 @@
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"
         rel="stylesheet"
         type="text/css">
-  <link href="https://s3.amazonaws.com/static.repx.me/fonts/glyphicons/glyphicons-pro.min.css"
+  <link href="https://s3.amazonaws.com/static.app.me/fonts/glyphicons/glyphicons-pro.min.css"
         rel="stylesheet"
         type="text/css">
 
@@ -84,11 +84,11 @@
     Please enable Javascript to experience this site :)
   </noscript>
 
-  <repx-nav-left></repx-nav-left>
-  <repx-nav-right></repx-nav-right>
+  <app-nav-left></app-nav-left>
+  <app-nav-right></app-nav-right>
 
   <div id="page-container">
-    <repx-header></repx-header>
+    <app-header></app-header>
     <div id="fx-container" class="fx-opacity">
 
       <div id="page-content" class="block">
